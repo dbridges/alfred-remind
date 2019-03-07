@@ -2,7 +2,7 @@
 
 <img src="screenshot.png" width="605">
 
-Simple Alfred workflow for Reminders
+Simple Alfred Workflow for Reminders
 
 ## Install
 
