@@ -1,0 +1,38 @@
+{
+  "name": "alfred-remind",
+  "version": "0.1.0",
+  "description": "Simple Alfred workflow for Reminders",
+  "license": "MIT",
+  "repository": "dbridges/alfred-remind",
+  "author": {
+    "name": "Daniel Bridges",
+    "email": "bridges2@gmail.com",
+    "url": "danbridges.org"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0",
+    "chrono-node": "^1.3.11"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
